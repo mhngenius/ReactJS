@@ -1,3 +1,4 @@
+//html codes
 function Header() {
     return (
         <header>
