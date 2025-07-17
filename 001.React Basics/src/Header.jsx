@@ -1,4 +1,4 @@
-//html codes
+// html codes
 function Header() {
     return (
         <header>
