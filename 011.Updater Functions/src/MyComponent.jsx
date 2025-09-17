@@ -18,7 +18,7 @@ function MyComponent() {
 
         setCount(c => c + 1);
         setCount(c => c + 1);
-        setCount(c => c + 1); // add 3 numbers every time 
+        setCount(c => c + 1); // adds 3 numbers every time 
 
         // takes the PENDING state to calculate NEXT state.
         // React puts your updater function in queue (waiting in line).
@@ -28,7 +28,7 @@ function MyComponent() {
     function decrement() {
         setCount(c => c - 1);
         setCount(c => c - 1);
-        setCount(c => c - 1); // decrement 3 numbers every time 
+        setCount(c => c - 1); // decreases 3 numbers every time 
     }
 
     function reset() {
@@ -46,3 +46,4 @@ function MyComponent() {
 }
 
 export default MyComponent;
+
