@@ -38,7 +38,6 @@ function MyComponent() {
 
     function changeColor() {
         setColor(c => c === "blue" ? "red" : "blue");
-        p
     }
 
     return (<>
@@ -52,3 +51,4 @@ function MyComponent() {
 }
 
 export default MyComponent;
+
